@@ -3,7 +3,7 @@ fetch('https://fakestoreapi.com/products')
   .then(data => {
 
     data.forEach(donnee => {
-      document.body.innerHTML += `
+      document.querySelector("#div").innerHTML += `
       <div class="w15 card m100 marginLeft">
 
 
